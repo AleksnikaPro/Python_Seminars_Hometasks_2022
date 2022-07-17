@@ -10,7 +10,7 @@ import os
 clear = lambda: os.system('cls')
 clear()
 
-def multiplication(n):
+def multiplication(n: int):
     result = 1
     list = []
     for i in range(1, n + 1):

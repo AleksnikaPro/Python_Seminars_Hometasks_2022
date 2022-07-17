@@ -6,7 +6,7 @@ clear = lambda: os.system('cls')
 clear()
 import random
 
-def shuffle_list(new_list):
+def shuffle_list(new_list: list):
     random.shuffle(new_list)
     return new_list
 
@@ -17,13 +17,13 @@ print(f'Перемешанный список {shuffle_list(list)}')
 
 #______________________________________________________
 
-# def fill_list(arg_1):
+# def fill_list(arg_1: int):
 #     my_list = []
 #     for index in range(arg_1):
 #         my_list.append(random.randint(0, 30))
 #     return my_list
 
-# def shuffled_list(arg_1):
+# def shuffled_list(arg_1: list):
 #     for i in range(len(arg_1)-1, 0, -1):
 #         j = random.randint(0, i + 1)
 #         arg_1[i], arg_1[j] = arg_1[j], arg_1[i]

@@ -10,7 +10,7 @@ import os
 clear = lambda: os.system('cls')
 clear()
 
-def summ_of_digits(number):
+def summ_of_digits(number: str):
     summ = 0
     result = str(number).replace('.', '')
     for i in result:

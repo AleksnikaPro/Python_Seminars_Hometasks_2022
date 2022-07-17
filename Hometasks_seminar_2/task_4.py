@@ -5,15 +5,15 @@ import os
 clear = lambda: os.system('cls')
 clear()
 
-def get_list_of_elements(arg_1, arg_2):
+def get_list_of_elements(arg_1: int, arg_2: int):
     list1 = [int(i)for i in range(arg_1, arg_2 + 1)]
     return list1
 
-def get_list_of_indices(arg_1):
+def get_list_of_indices(arg_1: list):
     list2 = [int(i) for i in arg_1]
     return list2
 
-def multiplication_result(arg_1, arg_2):  
+def multiplication_result(arg_1: list, arg_2: list):  
     mult_operation = 1
     for i in arg_1:   
         mult_operation *= elements[i]

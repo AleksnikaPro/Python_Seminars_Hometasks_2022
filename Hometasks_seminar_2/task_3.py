@@ -11,7 +11,7 @@ import os
 clear = lambda: os.system('cls')
 clear()
 
-def number_sequence(n):
+def number_sequence(n: int):
     result = 0
     count = 0
     summ = 0
