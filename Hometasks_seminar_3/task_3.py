@@ -40,3 +40,5 @@ filled_list = fill_list(number)
 print(f'Исходный список: {filled_list}')
 final_result = get_difference(filled_list)
 print(f'Разница между максимальным и минимальным значением дробной части элементов: {final_result}')
+
+

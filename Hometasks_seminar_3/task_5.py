@@ -16,8 +16,8 @@ def get_fibonacci_numbers(param_1: int):
 
     fib_num_1 = 0
     fib_num_2 = 1
-    for i in range(param_1):
-        fibinacci_list.insert(0, fib_num_1)
+    for i in range(param_1 + 1):
+        fibinacci_list.insert(0,fib_num_1)
         fib_num_1, fib_num_2 = fib_num_2, fib_num_1 - fib_num_2        
        
     return fibinacci_list
